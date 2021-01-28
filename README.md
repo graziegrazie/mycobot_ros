@@ -10,7 +10,7 @@
 
 <!-- This is the mycobot ROS package designed by Zhang Lijun([lijun.zhang@elephantrobotics.com]()) -->
 
-> Make sure that `Atom2.1alpha` is flashed into the top Atom and `Transponder` is flashed into the base Basic .The tool download address: [https://github.com/elephantrobotics/myCobot/tree/main/Software](https://github.com/elephantrobotics/myCobot/tree/main/Software)<br>
+> Make sure that `Atom2.3` or before is flashed into the top Atom and `Transponder` is flashed into the base Basic .The tool download address: [https://github.com/elephantrobotics/myCobot/tree/main/Software](https://github.com/elephantrobotics/myCobot/tree/main/Software)<br>
 > ubuntu: 16.04LTS<br>
 > ros version: 1.12.17
 
@@ -21,8 +21,6 @@ Download ROS [http://wiki.ros.org/ROS/Installation](http://wiki.ros.org/ROS/Inst
 ### 1.1 Pre-Requriements
 
 For using this package, the [Python api](https://github.com/elephantrobotics/pymycobot.git) library should be installed first.
-
-If you want to use api alone, you can look here [https://github.com/elephantrobotics/pymycobot.git](https://github.com/elephantrobotics/pymycobot.git)
 
 ```bash
 pip install pymycobot==1.0.7
